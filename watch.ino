@@ -121,7 +121,7 @@ display.setCursor(36,50);
 display.println(":");
 } else {
 display.setCursor(10,50);
-display.println(now.minute());
+display.println(now.hour());
 display.setCursor(36,50);
 display.println(":");
 }
